@@ -1,4 +1,4 @@
-# CodeEye — Python 依赖
+# AI writes code and automatically clicks — Python 依赖
 # 安装命令 / Install:  pip install -r requirements.txt
 
 # 屏幕自动化核心 / Screen automation core

@@ -1,12 +1,12 @@
 <div align="center">
 
-# 🟦 CodeEye
+# 🤖 AI writes code and automatically clicks
 
-### Windows 错误窗口自动处理 & 屏幕按钮识别点击工具集
+### AI 驱动的代码监督与自动化点击工具集
 
 *让 Windows 那些"运行 / 仍要运行 / 继续 / 确定"弹窗从此自己消失。*
 
-[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/X-D/CodeEye)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/X-D/ai-writes-code-and-automatically-clicks)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![PyAutoGUI](https://img.shields.io/badge/pyautogui-0.9.54-orange.svg)](https://pyautogui.readthedocs.io/)
@@ -17,9 +17,9 @@
 
 ## 📖 项目简介 / Overview
 
-**CodeEye** 是一套面向 Windows 的桌面自动化工具集，核心能力是 **"盯着屏幕 → 识别按钮 → 自动点击 → 自动关闭错误弹窗"**。
+**AI writes code and automatically clicks** 是一套面向 Windows 的桌面自动化工具集，核心能力是 **"盯着屏幕 → 识别按钮 → 自动点击 → 自动关闭错误弹窗"**。
 
-它解决一个非常具体的痛点：当你长时间挂机运行某个程序（编译、批处理、爬虫、游戏脚本……）时，系统或应用会时不时弹出 `Microsoft Visual C++ Runtime Library`、`程序已停止工作`、`是否继续运行` 等对话框，**一旦没人点掉，整条流水线就卡住了**。CodeEye 用两种互补方案把这个问题彻底自动化掉：
+它解决一个非常具体的痛点：当你长时间挂机运行某个程序（编译、批处理、爬虫、游戏脚本……）时，系统或应用会时不时弹出 `Microsoft Visual C++ Runtime Library`、`程序已停止工作`、`是否继续运行` 等对话框，**一旦没人点掉，整条流水线就卡住了**。本工具用两种互补方案把这个问题彻底自动化掉：
 
 | 模式 | 思路 | 是否需要管理员 | 是否常驻 | 持久性 |
 |------|------|:-------------:|:--------:|:------:|
@@ -48,7 +48,7 @@
 ## 🗂️ 项目结构 / Project Structure
 
 ```
-CodeEye/
+ai-writes-code-and-automatically-clicks/
 ├── default.py            # ⭐ 主入口：图像识别自动点击器 v4.0（扫描 ocr/ 下所有按钮图）
 ├── 报错点击.py            # ⭐ Windows 错误完全处理工具 v2.0（注册表 + 窗口监控双模式）
 ├── 继续点击.py            # "继续" 按钮专用点击器 v3.0（固定 4 张 continue_button*.png）
@@ -86,8 +86,8 @@ CodeEye/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/X-D/CodeEye.git
-cd CodeEye
+git clone https://github.com/X-D/ai-writes-code-and-automatically-clicks.git
+cd ai-writes-code-and-automatically-clicks
 
 # 创建并激活虚拟环境
 python -m venv venv
@@ -238,7 +238,7 @@ A：`default.py` / `继续点击.py` / `简单点击.py` / `截图工具.py` / `
 
 <div align="center">
 
-**⭐ 如果 CodeEye 帮你少守了一晚上电脑，给个 Star 吧 ⭐**
+**⭐ 如果 AI writes code and automatically clicks 帮你少守了一晚上电脑，给个 Star 吧 ⭐**
 
 *Stay Safe, Stay Secure — 感谢使用！*
 
