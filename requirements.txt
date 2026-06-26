@@ -1,0 +1,18 @@
+# CodeEye — Python 依赖
+# 安装命令 / Install:  pip install -r requirements.txt
+
+# 屏幕自动化核心 / Screen automation core
+pyautogui==0.9.54
+
+# pyautogui 的 locateOnScreen(confidence=...) 参数依赖 OpenCV
+# Required by pyautogui for confidence-based image matching
+opencv-python>=4.8.0
+
+# 数值运算（pyautogui 内部返回 numpy 整型坐标）
+# Pinned to match the venv shipped with the project
+numpy>=2.0.0
+
+# 可选：test_ocr.py 用于 locateOnText 文本识别时需要
+# Optional: only needed if you want OCR text matching in test_ocr.py
+# pytesseract>=0.3.10
+# (Tesseract OCR 引擎需另行安装并加入 PATH / Install Tesseract separately)

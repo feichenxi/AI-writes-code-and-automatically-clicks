@@ -1,0 +1,103 @@
+# ─────────────────────────────────────────────────────────────
+# CodeEye — .gitignore
+# Python / Windows / PyInstaller / JetBrains
+# ─────────────────────────────────────────────────────────────
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+develop-eggs/
+sdist/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+.installed.cfg
+MANIFEST
+
+# ── 虚拟环境 / Virtual environments ───────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# ── PyInstaller 构建产物 / Build artifacts ────────────────────
+build/
+dist/
+*.manifest
+*.spec.bak
+localpycs/
+*.pkg
+warn-*.txt
+xref-*.html
+
+# ── 可执行文件 / Compiled binaries ────────────────────────────
+*.exe
+*.dll
+*.so
+*.dylib
+*.com
+*.bat.bin
+
+# ── 日志文件 / Log files ──────────────────────────────────────
+*.log
+logs/
+error_handler.log
+auto_click.log
+continue_click.log
+
+# ── IDE / Editors ─────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ── 操作系统 / OS junk ────────────────────────────────────────
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+.DS_Store
+
+# ── 截图缓存 / Screenshot caches (运行时生成，非仓库内容) ─────
+# 注意：ocr/ 目录下的按钮图片是仓库必需资源，不可忽略！
+# Note: PNGs inside ocr/ ARE required repo assets — do NOT ignore them.
+# 以下规则仅忽略仓库【根目录】下由 截图工具.py 现场生成的临时截图，
+# 用前导斜杠限定作用域，确保 ocr/ 内的同名图片仍被跟踪。
+/continue_button.png
+/continue_button[0-9].png
+/screenshot_*.png
+
+# ── 测试 / Coverage ───────────────────────────────────────────
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+nosetests.xml
+*.cover
+.hypothesis/
+
+# ── 类型检查 / Type checkers ──────────────────────────────────
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
