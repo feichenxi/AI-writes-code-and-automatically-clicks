@@ -83,6 +83,10 @@ $RECYCLE.BIN/
 /continue_button[0-9].png
 /screenshot_*.png
 
+# ── 一键推送脚本（含敏感信息，请勿提交）───────────────────────
+一键推送到GitHub.bat
+*.bat
+
 # ── 测试 / Coverage ───────────────────────────────────────────
 .pytest_cache/
 .tox/
