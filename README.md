@@ -6,7 +6,7 @@
 
 *让 Windows 那些"运行 / 仍要运行 / 继续 / 确定"弹窗从此自己消失。*
 
-[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/X-D/ai-writes-code-and-automatically-clicks)
+[![Platform](https://img.shields.io/badge/platform-Windows-blue.svg)](https://github.com/feichenxi/AI-writes-code-and-automatically-clicks)
 [![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
 [![PyAutoGUI](https://img.shields.io/badge/pyautogui-0.9.54-orange.svg)](https://pyautogui.readthedocs.io/)
@@ -48,7 +48,7 @@
 ## 🗂️ 项目结构 / Project Structure
 
 ```
-ai-writes-code-and-automatically-clicks/
+AI-writes-code-and-automatically-clicks/
 ├── default.py            # ⭐ 主入口：图像识别自动点击器 v4.0（扫描 ocr/ 下所有按钮图）
 ├── 报错点击.py            # ⭐ Windows 错误完全处理工具 v2.0（注册表 + 窗口监控双模式）
 ├── 继续点击.py            # "继续" 按钮专用点击器 v3.0（固定 4 张 continue_button*.png）
@@ -86,8 +86,8 @@ ai-writes-code-and-automatically-clicks/
 
 ```bash
 # 克隆仓库
-git clone https://github.com/X-D/ai-writes-code-and-automatically-clicks.git
-cd ai-writes-code-and-automatically-clicks
+git clone https://github.com/feichenxi/AI-writes-code-and-automatically-clicks.git
+cd AI-writes-code-and-automatically-clicks
 
 # 创建并激活虚拟环境
 python -m venv venv
@@ -230,9 +230,26 @@ A：`default.py` / `继续点击.py` / `简单点击.py` / `截图工具.py` / `
 
 ## 📄 许可证 / License
 
-本项目基于 [MIT License](./LICENSE) 开源，版权所有 © 2026 X.D。
+本项目基于 [MIT License](./LICENSE) 开源，版权所有 © 2026 feichenxi。
 
 依赖库遵循各自许可证：[PyAutoGUI (BSD-3)](https://github.com/asweigart/pyautogui)、[OpenCV (Apache-2.0)](https://opencv.org/)、[NumPy (BSD-3)](https://numpy.org/)。
+
+---
+
+## 📬 联系方式
+
+如有问题、建议或合作意向，欢迎通过以下方式联系我：
+
+- **邮箱**：[44998076@qq.com](mailto:44998076@qq.com)
+- **微信**：扫描下方二维码
+
+![微信二维码](qrcode.jpg)
+
+---
+
+## ⚠️ 免责声明
+
+本项目仅供学习和研究目的。请遵守当地法律法规，在合法合规的前提下使用。作者不对任何不当使用行为承担责任。
 
 ---
 
